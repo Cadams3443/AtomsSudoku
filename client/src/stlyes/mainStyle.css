@@ -1,0 +1,72 @@
+*{
+    margin: 0, auto;
+    text-align: center;
+}
+
+.solve-btn{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    border:2px solid black;
+    box-shadow: 4px 2px black;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(28, 28, 28);
+}
+
+.solve-btn:hover{
+    /* margin-bottom: 2px; */
+    margin-right: 2px;
+    box-shadow: none;
+}
+
+.seeSolve-btn{
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    border:2px solid black;
+    box-shadow: 4px 2px black;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(28, 28, 28);
+
+}
+.seeSolve-btn:hover{
+    margin-right: 2px;
+    box-shadow: none;
+
+}
+
+.new-puzzle{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    border:2px solid black;
+    box-shadow: 4px 2px black;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(28, 28, 28);
+
+}
+
+.new-puzzle:hover{
+    /* margin-bottom: 2px; */
+    margin-right: 2px;
+    box-shadow: none;
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.heading{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}

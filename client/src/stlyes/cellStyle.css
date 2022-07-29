@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+}
+
+.cell{
+    width:51px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 0;
+}
+
+
+
+.b-00{
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.b-01{
+    border-top: 3px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.b-02{
+    border-top: 3px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 3px solid black
+}
+
+.b-10{
+    border-left: 3px solid black;
+    border-right: 1px solid black;
+    /* border-bottom: 1px solid black; */
+}
+
+.b-11{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    /* border-bottom: 1px solid black; */
+ 
+}
+
+.b-12{
+    border-left: 1px solid black;
+    /* border-bottom: 1px solid black;o9 */
+    border-right: 3px solid black;
+}
+
+.b-20{
+    border-left: 3px solid black;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.b-21{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+.b-22{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 3px solid black;
+    border-bottom: 2px solid black;
+}
+
+.selected{
+    outline:4px solid rgba(0, 0, 255, 0.566);
+    outline-offset: -5px;
+}
+
+.text-blue{
+    color: blue
+}
+
+.text-red{
+    color: red!important;
+}
