@@ -55,6 +55,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - Choosing whether you want to pencil mark the corners or the center of a cell, for more accuracy.
 - Being able to overwrite your pencil marks with a true digit, undoing that move and the previous pencil marks being there. 
 
+*Misc*
 - When a digit given conflicts with the digits on the board, it highlights both the digit the player gave, and the conflict
 
 - Ability to use arrow keys to move around the grid after selecting a cell with your mouse.
