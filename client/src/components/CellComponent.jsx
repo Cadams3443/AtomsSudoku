@@ -11,23 +11,26 @@ const CellComponent = (props) => {
   document.onkeydown = (e) =>{
     let value = e.key
     if(selected){
-      if(value === "Backspace"){
-        updateGrid("0")
-        setRed("")
-      }else{
-        if(/^[0-9]*$/.test(value)){
-          if(!isValid(value)){
-            setRed("text-red")
-          }else{
-            setRed("")
+      if(ogGridCheckInput()){
+        if(value === "Backspace"){
+          updateGrid("0")
+          setRed("")
+        }else{
+          if(/^[0-9]*$/.test(value)){
+            if(!isValid(value)){
+              setRed("text-red")
+            }else{
+              setRed("")
+            }
+            updateGrid(value)
+            setSelected(!selected)
+  
           }
-          updateGrid(value)
-          setSelected(!selected)
-
         }
+        
       }
-      
-    }
+
+      }
   }
 
   const updateGrid = (value) => {
@@ -41,6 +44,10 @@ const CellComponent = (props) => {
     }else{
       return ""
     }
+  }
+
+  const ogGridCheckInput = ()=>{
+    return props.ogCheck(props.rowIndex, props.index)
   }
 
   const ogGridCheck = () =>{
