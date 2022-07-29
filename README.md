@@ -1,10 +1,20 @@
-# Getting Started with Create React App
+# Welcome to Atom's Sudoku
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Atom's Sudoku's Mission
 
-In the project directory, you can run:
+This project started with the idea that Sudoku solving algorithms would be a great visualization tool for backtracking algorithms.
+Once the visualizer was complete, the passion I have for sudoku took over and I set out to make a great sudoku app. 
+
+The expectation is that it will be full of the feature's you'd expect from a modern sudoku app. 
+The features are still a work in progress and listed down below I have many more features I want to add in future updates.
+
+
+
+## How to use (directly from React's documentation):
+
+Inside the client folder you can run the following scripts:
 
 ### `npm start`
 
@@ -39,32 +49,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Future features (for now...)
+*Pencil Marks* 
+- Pencil Marks for noting candidates for digits
+- Choosing whether you want to pencil mark the corners or the center of a cell, for more accuracy.
+- Being able to overwrite your pencil marks with a true digit, undoing that move and the previous pencil marks being there. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- When a digit given conflicts with the digits on the board, it highlights both the digit the player gave, and the conflict
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Ability to use arrow keys to move around the grid after selecting a cell with your mouse.
+- Ability to input digits/pencil marks in multiple cells at a time.  
